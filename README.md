@@ -1,6 +1,6 @@
 ## !!! WARNING !!!
 The following repository contains code that CAN and WILL create permanent issues within your file system, and potentially cause permanent damage to your machine. Powershell is, as it is entitled, a POWERFUL tool. 
-Do not EVER run Powershell scripts or command that you do not fully understand the consequences of. I have learned this lesson the hard way, and I hope this project can act as way to teach others why security and
+Do not EVER run Powershell scripts or commands that you do not fully understand the consequences of. I have learned this lesson the hard way, and I hope this project can act as way to teach others why security and
 mindful use of your machine is imperative to its long term health and usability.
 
 ## What is this?
