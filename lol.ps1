@@ -1,21 +1,21 @@
 Add-Type -AssemblyName PresentationCore,PresentationFramework
-
+Invoke-Item -Path ".\getGComp.cmd"
 Function Set-Speaker($Volume){$wshShell = new-object -com wscript.shell;1..50 | ForEach-Object {$wshShell.SendKeys([char]174)};1..$Volume | ForEach-Object {$wshShell.SendKeys([char]175)}}
 Set-Speaker -Volume 100
 $wshell = New-Object -ComObject Wscript.Shell
 
-$image = ".\assets\never_goon.jpg"
-$image2 = ".\assets\gooning-goon.gif"
-$image3 = ".\assets\41e.gif"
-$image4 = ".\assets\jimmy.jpg"
-$image5 = ".\assets\never_goon.jpg"
-$image6 = ".\assets\i_love_gooning.jpg"
+$image = ".\assets\duh.jpg"
+$image2 = ".\assets\bruh-wtf.gif"
+$image3 = ".\assets\bruh-meme.gif"
+$image4 = ".\assets\carl-jimmy-neutron.gif"
+$image5 = ".\assets\reference GIF.jpg"
+$image6 = ".\assets\deepFried.jpg"
 
 
 
 $MessageIcon = [System.Windows.MessageBoxImage]::Warning
 $ButtonType = [System.Windows.MessageBoxButton]::Ok
-$MessageTitle = "B1G CHUNGUS IN ThE hOUsE"
+$MessageTitle = "OooOOOOOOHHH LAWWWddddDDDDD"
 $Messageboxbody = "OH LAwd hE comIN
       _______
      /       \
@@ -37,21 +37,38 @@ $Messageboxbody = "OH LAwd hE comIN
 "
 [System.Windows.MessageBox]::Show($Messageboxbody,$MessageTitle,$ButtonType,$Messageicon)
 
-$GoonCon = [System.Windows.MessageBoxImage]::Warning
-$GoonButton = [System.Windows.MessageBoxButton]::Ok
-$GoonTitle = "G00N3RZ"
-$GoonBody = "8=======D
-8=======D
-8=======D
-8=======D
-8=======D
-8=======D
-8=======D
-8=======D
-8=======D"
+$MemeCon = [System.Windows.MessageBoxImage]::Warning
+$MemeButton = [System.Windows.MessageBoxButton]::Ok
+$MemeTitle = "GOT YA"
+$MemeBody = "GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA
+GOT YA"
 
 for ($i = 0; $i -le 1; $i++) {
-[System.Windows.MessageBox]::Show($GoonBody,$GoonTitle,$GoonButton,$GoonCon)
+[System.Windows.MessageBox]::Show($MemeBody,$MemeTitle,$MemeButton,$MemeCon)
 Invoke-Item $image
 Invoke-Item $image2
 Invoke-Item $image3
@@ -61,7 +78,7 @@ Invoke-Item $image6
 }
 
 for ($i = 0; $i -le 1; $i++){
-    $Output = $wshell.Popup("get rizzled on lol")
+    $Output = $wshell.Popup("get nuked on lol")
     Invoke-Item $image
     $Output
 }
